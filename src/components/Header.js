@@ -83,6 +83,7 @@ export default function Header() {
       <AppBar
         style={{
           height: 90,
+          width: '100vw',
           display: 'flex',
           justifyContent: 'center',
           padding: 0,
