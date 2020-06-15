@@ -38,6 +38,7 @@ const useStyles = makeStyles((theme) => ({
   },
   drawerPaper: {
     width: drawerWidth,
+    backgroundColor: theme.palette.primary.main,
   },
   drawerHeader: {
     display: 'flex',
@@ -45,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(0, 1),
     // necessary for content to be below app bar
     height: 90,
-    justifyContent: 'flex-end',
+    justifyContent: 'center',
   },
   content: {
     flexGrow: 1,
@@ -179,26 +180,53 @@ export default function Header() {
       >
         <div className={classes.drawerHeader}>
           <IconButton onClick={handleDrawerClose}>
-            <ChevronLeftIcon />
+            <ChevronLeftIcon style={{ color: 'white' }} />
           </IconButton>
         </div>
-        <Divider />
-        <LinkMat href='#hakkimizda' style={{ marginRight: 20, fontSize: 16 }}>
+
+        <LinkMat
+          href='#hakkimizda'
+          style={{
+            marginLeft: 20,
+            marginTop: 20,
+            marginBottom: 20,
+            fontSize: 20,
+            color: 'white',
+          }}
+        >
           Hakkımızda
         </LinkMat>
         <LinkMat
           href='#departmanlarimiz'
-          style={{ marginRight: 20, fontSize: 16 }}
+          style={{
+            marginLeft: 20,
+            fontSize: 20,
+            marginBottom: 20,
+            color: 'white',
+          }}
         >
           Departmanlarımız
         </LinkMat>
         <LinkMat
           href='#neleryapiyoruz'
-          style={{ marginRight: 20, fontSize: 16 }}
+          style={{
+            marginLeft: 20,
+            fontSize: 20,
+            marginBottom: 20,
+            color: 'white',
+          }}
         >
           Neler Yapıyoruz
         </LinkMat>
-        <LinkMat href='#iletisim' style={{ fontSize: 16 }}>
+        <LinkMat
+          href='#iletisim'
+          style={{
+            marginLeft: 20,
+            fontSize: 20,
+            marginBottom: 20,
+            color: 'white',
+          }}
+        >
           İletişim
         </LinkMat>
       </Drawer>
