@@ -90,19 +90,20 @@ const Neleryapiyoruz = () => {
               style={{ width: '60%', height: 'auto' }}
             />
             <Typography style={{ fontSize: 19, lineHeight: 2, marginTop: 20 }}>
-              Müşteriye e ticareti sistemi sağlama, domain, hosting ve bakım
-              hizmetleri, ürün girişi, ürün açıklamaları, e ticaret sistemi
-              eğitimleri icoomercetime e-ticaret alanındaki firmaların
-              hedeflerini gerçekleştirme noktasında gerekli desteği sağlar ve
-              rekabet güçlerini arttırmayı, tekniik aksaklıklara çözüm bulmayı
-              hedefler.
+              Müşteriye e-ticaret sistemi sağlama, e-ticaret sisteminin domain
+              hosting ve bakım hizmetleri yürütme, ürün giriş ve açıklamalarını
+              gerçekleştirme gibi konularda icommercetime, e-ticaret alanındaki
+              firmalara hedeflerini gerçekleştirmeleri noktasında gerekli
+              desteği sağlar, teknik aksaklıklara çözüm bulur ve rekabet
+              güçlerini arttırmayı hedefler.
               <br />
-              Şu ana kadar onlarca Avrupa müşterisine e ticaret hazırlanmıştır
-              ve teslim edilmiştir. Müşterilerin tüm hizmetleri yürütülmektedir.
+              Şu ana kadar onlarca Avrupa müşterisine e-ticaret sistemi
+              hazırlanmış ve teslim edilmiştir. Müşterilerin tüm ihtiyaçları
+              gerçekleştirilip hizmetleri yürütülmektedir.
             </Typography>
             <Shoppingapp
               style={{
-                width: '100%',
+                width: '90%',
                 height: 'auto',
                 marginTop: 40,
                 padding: 20,
