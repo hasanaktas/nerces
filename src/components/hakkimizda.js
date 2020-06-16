@@ -21,9 +21,9 @@ const Hakkimizda = () => {
           bedibuy.com ve icommercetime.com sitelerinin tüm teknik hizmetlerini
           sağlamaktadır. Temel hedefi müşteri memnuniyeti olan firmamız;
           kaliteli işler yapan, insani değerlere saygılı ve yüksek performansla
-          çalışan bir şirettir. Vizyonumuz her geçen gün kendini geliştiren,
+          çalışan bir şirkettir. Vizyonumuz her geçen gün kendini geliştiren,
           analizleri etkili yapabilen, çalışanlarına ve müşterilerine gerekli
-          destekleri sağlayarak önde gelmiş e ticaret firmaları arasında ilk
+          destekleri sağlayarak önde gelmiş e-ticaret firmaları arasında ilk
           sıralarda yer almaktır.
         </Typography>
       </Container>

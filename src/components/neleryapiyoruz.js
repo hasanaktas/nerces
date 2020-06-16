@@ -78,7 +78,7 @@ const Neleryapiyoruz = () => {
               )
             })}
             <Typography style={{ fontSize: 19, lineHeight: 2, marginTop: 20 }}>
-              şirketimiz tarafından bu e ticaret sistemin tüm teknik altyapısı,
+              Şirketimiz tarafından bu e-ticaret sistemin tüm teknik altyapısı,
               ürün girişi, müşteri ilişkileri konularında desteği
               sağlanmaktadır.
             </Typography>
